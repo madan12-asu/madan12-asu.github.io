@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema targetNamespace= "https://madan12-asu.github.io"
-	xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	elementFormDefault="qualified" attributeFormDefault="unqualified">
 	
 	<!-- 
@@ -34,7 +34,7 @@
 			<element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 			<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 		</sequence>
-		<attribute name="NearestAirport" type="xs:string" use="required"/>
+		<attribute name="NearestAirport" type="xsd:string" use="required"/>
 	</complexType>
 	
 	<!-- Number Format -->
