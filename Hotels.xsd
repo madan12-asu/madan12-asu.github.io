@@ -34,8 +34,8 @@
 			<element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 			<element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 			<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<attribute name="NearestAirport" type="xsd:string" use="required"/>
 		</sequence>
+		<attribute name="NearestAirport" type="xsd:string" use="required"/>
 	</complexType>
 	
 	<!-- Number Format -->
