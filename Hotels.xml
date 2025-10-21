@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels
+	xmlns ="http://venus.sod.asu.edu/WSRepository/xml/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml/Hotels.xsd">
+	
+	<!-- 
+		CSE 598 - Assignment 4 Ex1.1
+		Author: Mark Adan
+		last updated: 10/17/25 
+	-->
+	
+   <!-- 1 -->
+	<Hotel Rating="8.6">
+		<Name>Pacific Palms Resort</Name>
+		<Phone>626-810-4455</Phone>
+		<Address NearestAirport="Ontario International Airport">
+			<Number>1</Number>
+			<Street>Industry Hills Pkwy</Street>
+			<City>La Puente</City>
+			<State>CA</State>
+			<Zip>91744</Zip>
+		</Address>
+	</Hotel>     
+    
+    <!-- 2 -->
+	<Hotel Rating="7.6">
+		<Name>The STRAT Hotel and Casino</Name>
+		<Phone>702-914-2000</Phone>
+		<Address NearestAirport="Harry Reid International Airport">
+			<Number>2000</Number>
+			<Street>Las Vegas Blvd S</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89104</Zip>
+		</Address>
+	</Hotel>     
+	
+	<!-- 3 -->
+	<Hotel>
+		<Name>Kasa 2nd Street Austin</Name>
+		<Phone>512-572-9701</Phone>
+		<Address NearestAirport="Austin-Bergstrom International Airport">
+			<Number>421</Number>
+			<Street>W 3rd St</Street>
+			<City>Austin</City>
+			<State>TX</State>
+			<Zip>78701</Zip>
+		</Address>
+	</Hotel>     
+	
+	<!-- 4 -->
+	<Hotel>
+		<Name>The Alexis Royal Sonesta Hotel Seattle</Name>
+		<Phone>206-624-4844</Phone>
+		<Address NearestAirport="Seattle-Tacoma International Airport">
+			<Number>1007</Number>
+			<Street>1st Ave</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98104</Zip>
+		</Address>
+	</Hotel>     
+	
+	<!-- 5 -->
+	<Hotel>
+		<Name>Hard Rock Hotel San Diego</Name>
+		<Phone>619-702-3000</Phone>
+		<Address NearestAirport="San Diego International Airport">
+			<Number>207</Number>
+			<Street>5th Ave</Street>
+			<City>San Diego</City>
+			<State>CA</State>
+			<Zip>92101</Zip>
+		</Address>
+	</Hotel>   
+	
+	<!-- 6 -->
+	<Hotel Rating="9.0">
+		<Name>ALOFT Chicago Schaumburg</Name>
+		<Phone>847-255-9600</Phone>
+		<Address NearestAirport="O'Hare Innternational Airport">
+			<Number>3407</Number>
+			<Street>Algonquin Rd</Street>
+			<City>Rolling Meadows</City>
+			<State>IL</State>
+			<Zip>60008</Zip>
+		</Address>
+	</Hotel>   
+	
+	<!-- 7 -->
+	<Hotel>
+		<Name>Casblanca Hotel</Name>
+		<Phone>212-869-1212</Phone>
+		<Address NearestAirport="LaGuardia Airport">
+			<Number>147</Number>
+			<Street>W 43rd St</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10036</Zip>
+		</Address>
+	</Hotel>   
+	
+	<!-- 8 -->
+	<Hotel Rating="8.6">
+		<Name>Nobu Hotel Miami</Name>
+		<Phone>305-704-7600</Phone>
+		<Address NearestAirport="Miami International Airport">
+			<Number>4525</Number>
+			<Street>Collins Ave</Street>
+			<City>Miami Beach</City>
+			<State>FL</State>
+			<Zip>33140</Zip>
+		</Address>
+	</Hotel>   
+	
+	<!-- 9 -->
+	<Hotel Rating="9.6">
+		<Name>Limelight Hotel Aspen</Name>
+		<Phone>970-925-3025</Phone>
+		<Address NearestAirport="Aspen/Pitkin County Airport">
+			<Number>355</Number>
+			<Street>S Monarch St</Street>
+			<City>Aspen</City>
+			<State>CO</State>
+			<Zip>81611</Zip>
+		</Address>
+	</Hotel>   
+	
+	<!-- 10 -->
+	<Hotel Rating="9.6">
+		<Name>Four Seasons Resort Maui at Wailea</Name>
+		<Phone>808-874-8000</Phone>
+		<Address NearestAirport="Kahului Airport">
+			<Number>3900</Number>
+			<Street>Wailea Alanui Drive</Street>
+			<City>Kihei</City>
+			<State>HI</State>
+			<Zip>96753</Zip>
+		</Address>
+	</Hotel>   
+	
+</Hotels>  
