@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema targetNamespace= "https://madan12-asu.github.io"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+<schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace= "https://madan12-asu.github.io"
 	elementFormDefault="qualified" attributeFormDefault="unqualified">
 	
 	<!-- 
