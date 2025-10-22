@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
 	targetNamespace= "https://madan12-asu.github.io"
 	xmlns:htl="https://madan12-asu.github.io/Hotels.xsd"
 	elementFormDefault="qualified" attributeFormDefault="unqualified">
@@ -10,39 +10,47 @@
 		last updated: 10/17/25 
 	-->
 	
-	<xsd:complexType name="Hotels">
-		<xsd:sequence>
-			<xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
-		</xsd:sequence>
-	</xsd:complexType>
+	<element name="Hotels">
+		<complexType>
+			<sequence>
+				<element name="Hotel" minOccurs="1" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
 	
 	<!-- Hotel Details -->
-	<xsd:complexType name="HotelType">
-		<xsd:sequence>
-			<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="Phone" type="htl:PhoneType" minOccurs="1" maxOccurs="unbounded"/>
-			<xsd:element name="Address" type="htl:AddressType" minOccurs="0" maxOccurs="1"/>
-		</xsd:sequence>
-		<xsd:attribute name="Rating" type="xsd:float" use="optional"/>
-	</xsd:complexType>
+	<element name="HotelType">
+		<complexType>
+			<sequence>
+				<element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="Phone" type="htl:PhoneType" minOccurs="1" maxOccurs="unbounded"/>
+				<element name="Address" type="htl:AddressType" minOccurs="0" maxOccurs="1"/>
+			</sequence>
+			<attribute name="Rating" type="xsd:float" use="optional"/>
+		</complexType>
+	</element>
 	
 	<!-- Address Details -->
-	<htl:complexType name="AddressType">
-		<xsd:sequence>
-			<xsd:element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<xsd:element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-		</xsd:sequence>
-		<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
+	<htl:element name="AddressType">
+		<complexType>
+			<sequence>
+				<element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			</sequence>
+			<attribute name="NearestAirport" type="xsd:string" use="required"/>
+		</complexType>
 	</htl:complexType>
 	
 	<!-- Number Format -->
-	<htl:simpleType name="PhoneType">
-		<xsd:restriction base="xsd:string">
-			<xsd:pattern value="\d{3}\-\d{3}-\d{4}"/>
-		</xsd:restriction>
-	</htl:simpleType>
+	<htl:element name="PhoneType">
+		<simpleType>
+			<restriction base="xsd:string">
+				<pattern value="\d{3}\-\d{3}-\d{4}"/>
+			</restriction>
+		</simpleType>
+	</htl:element>
 	
-</xsd:schema>
+</schema>
