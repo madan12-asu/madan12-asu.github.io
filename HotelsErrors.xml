@@ -60,11 +60,13 @@
 			<City>Seattle</City>
 			<State>WA</State>
 			<Zip>98104</Zip>
+		</Address>
 	</Hotel>     
 	
 	<!-- 5 -->
 	<Hotel>
 		<Name>Hard Rock Hotel San Diego</Name>
+		<Phone>619-702-3000</Phone>
 		<Address NearestAirport="San Diego International Airport">
 			<Number>207</Number>
 			<Street>5th Ave</Street>
@@ -90,7 +92,6 @@
 	<!-- 7 -->
 	<Hotel>
 		<Name>Casblanca Hotel</Name>
-		<Phone>212-869-1212</Phone>
 		<Address NearestAirport="LaGuardia Airport">
 			<Number>147</Number>
 			<Street>W 43rd St</Street>
@@ -110,7 +111,6 @@
 			<City>Miami Beach</City>
 			<State>FL</State>
 			<Zip>33140</Zip>
-		</Address>
 	</Hotel>   
 	
 	<!-- 9 -->
