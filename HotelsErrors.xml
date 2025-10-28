@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns="https://madan12-asu.github.io/Hotels.xsd"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceschemaLocation="https://madan12-asu.github.io/Hotels.xsd">
+	xsi:noNamespaceSchemaLocation="https://madan12-asu.github.io/Hotels.xsd">
 	
 	<!-- 
 		CSE 598 - Assignment 4 Ex1.1
