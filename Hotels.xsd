@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema"
-	xmlns:htl="https://madan12-asu.github.io/Hotels.xsd"
+<xs:schema xs:xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="https://madan12-asu.github.io/"
 	elementFormDefault="qualified" attributeFormDefault="unqualified">
 	
 	<!-- 
@@ -9,35 +9,35 @@
 		last updated: 10/17/25 
 	-->
 	
-	<element name="Hotels" type="HotelType"/>
+	<xs:element name="Hotels" type="HotelType"/>
 	
 	<!-- Hotel Details -->
-	<complexType name="HotelType">
-		<sequence>
-			<element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
-			<element name="Phone" type="htl:PhoneType" minOccurs="1" maxOccurs="3"/>
-			<element name="Address" type="htl:AddressType" minOccurs="1" maxOccurs="1"/>
-		</sequence>
-		<attribute name="Rating" type="float" use="optional"/>
-	</complexType>
+	<xs:complexType name="HotelType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="3"/>
+			<xs:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="Rating" type="xs:float" use="optional"/>
+	</xs:complexType>
 	
 	<!-- Address Details -->
-	<complexType name="AddressType">
-		<sequence>
-			<element name="Number" type="string" minOccurs="1" maxOccurs="1"/>
-			<element name="Street" type="string" minOccurs="1" maxOccurs="1"/>
-			<element name="City" type="string" minOccurs="1" maxOccurs="1"/>
-			<element name="State" type="string" minOccurs="1" maxOccurs="1"/>
-			<element name="Zip" type="string" minOccurs="1" maxOccurs="1"/>
-		</sequence>
-		<attribute name="NearestAirport" type="string" use="required"/>
-	</complexType>
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element name="Number" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+	</xs:complexType>
 	
 	<!-- Number Format -->
-	<simpleType name="PhoneType">
-		<restriction base="string">
-			<pattern value="\d{3}\-\d{3}-\d{4}"/>
-		</restriction>
-	</simpleType>
+	<xs:simpleType name="PhoneType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{3}\-\d{3}-\d{4}"/>
+		</xs:restriction>
+	</xs:simpleType>
 	
-</schema>
+</xs:schema>
