@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<Hotels xmlns="https://madan12-asu.github.io/Hotels.xsd"
+	xmlns:htl="https://madan12-asu.github.io/Hotels.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="https://madan12-asu.github.io/Hotels.xsd">
 	
 	<!-- 
