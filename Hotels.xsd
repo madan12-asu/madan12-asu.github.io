@@ -13,28 +13,28 @@
 	<!-- Hotel Details -->
 	<complexType name="HotelType">
 		<sequence>
-			<element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
 			<element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="3"/>
 			<element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
 		</sequence>
-		<attribute name="Rating" type="xsd:float" use="optional"/>
+		<attribute name="Rating" type="float" use="optional"/>
 	</complexType>
 	
 	<!-- Address Details -->
 	<complexType name="AddressType">
 		<sequence>
-			<element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<element name="Number" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="Street" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="City" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="State" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="Zip" type="string" minOccurs="1" maxOccurs="1"/>
 		</sequence>
 		<attribute name="NearestAirport" type="string" use="required"/>
 	</complexType>
 	
 	<!-- Number Format -->
 	<simpleType name="PhoneType">
-		<restriction base="xsd:string">
+		<restriction base="string">
 			<pattern value="\d{3}\-\d{3}-\d{4}"/>
 		</restriction>
 	</simpleType>
