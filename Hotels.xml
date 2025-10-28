@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="https://madan12-asu.github.io/Hotels.xsd">
+<Hotels xmlns="https://madan12-asu.github.io/mySchema" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://madan12-asu.github.io Hotels.xsd">
 	
 	<!-- 
 		CSE 598 - Assignment 4 Ex1.1
