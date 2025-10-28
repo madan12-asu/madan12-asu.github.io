@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:htl="https://madan12-asu.github.io/Hotels.xsd"
 	elementFormDefault="qualified" attributeFormDefault="unqualified">
 	
 	<!-- 
@@ -8,14 +9,14 @@
 		last updated: 10/17/25 
 	-->
 	
-	<element name="Hotels" type="HotelType"/>
+	<element name="Hotels" type="htl:HotelType"/>
 	
 	<!-- Hotel Details -->
 	<complexType name="HotelType">
 		<sequence>
 			<element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
-			<element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="3"/>
-			<element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
+			<element name="Phone" type="htl:PhoneType" minOccurs="1" maxOccurs="3"/>
+			<element name="Address" type="htl:AddressType" minOccurs="1" maxOccurs="1"/>
 		</sequence>
 		<attribute name="Rating" type="float" use="optional"/>
 	</complexType>
