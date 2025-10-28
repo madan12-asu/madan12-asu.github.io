@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema"
+<schema xmlns="https://www.w3.org/2001/XMLSchema"
 	targetNamespace="https://madan12-asu.github.io"
 	xmlns:htl="https://madan12-asu.github.io"
 	elementFormDefault="qualified" attributeFormDefault="unqualified">
