@@ -42,9 +42,9 @@
 	
 	<!-- Number Format -->
 	<htl:simpleType name="PhoneType">
-		<restriction base="xsd:string">
+		<restriction base="string">
 			<pattern value="\d{3}\-\d{3}-\d{4}"/>
 		</restriction>
-	</simpleType>
+	</htl:simpleType>
 	
 </schema>
