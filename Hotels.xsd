@@ -21,21 +21,21 @@
 	<!-- Hotel Details -->
 	<complexType name="Hotel">
 		<sequence>
-			<element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
 			<element name="Phone" type="htl:PhoneType" minOccurs="1" maxOccurs="3"/>
 			<element name="Address" minOccurs="1" maxOccurs="1"/>
 		</sequence>
-		<attribute name="Rating" type="xsd:float" use="optional"/>
+		<attribute name="Rating" type="float" use="optional"/>
 	</complexType>
 	
 	<!-- Address Details -->
 	<complexType name="Address">
 		<sequence>
-			<element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-			<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<element name="Number" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="Street" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="City" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="State" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="Zip" type="string" minOccurs="1" maxOccurs="1"/>
 		</sequence>
 		<attribute name="NearestAirport" type="string" use="required"/>
 	</complexType>
