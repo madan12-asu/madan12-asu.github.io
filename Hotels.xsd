@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	xmlns="https://madan12-asu.github.io"
-	targetNamespace="https://madan12-asu.github.io/Hotels.xsd"
+	targetNamespace="https://madan12-asu.github.io/"
 	elementFormDefault="qualified" attributeFormDefault="unqualified">
 	
 	<!-- 
@@ -13,7 +13,7 @@
 	<xsd:element name="Hotels">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
+				<xsd:element name="Hotel" type="HotelType" minOccurs="0" maxOccurs="unbounded"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
