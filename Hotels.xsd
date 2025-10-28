@@ -12,14 +12,14 @@
 	<element name="Hotels" type="htl:HotelType"/>
 	
 	<!-- Hotel Details -->
-	<complexType name="HotelType">
+	<htl:complexType name="HotelType">
 		<sequence>
 			<element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
 			<element name="Phone" type="htl:PhoneType" minOccurs="1" maxOccurs="3"/>
 			<element name="Address" type="htl:AddressType" minOccurs="1" maxOccurs="1"/>
 		</sequence>
 		<attribute name="Rating" type="float" use="optional"/>
-	</complexType>
+	</htl:complexType>
 	
 	<!-- Address Details -->
 	<complexType name="AddressType">
