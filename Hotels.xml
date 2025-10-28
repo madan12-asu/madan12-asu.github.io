@@ -26,7 +26,7 @@
     <!-- 2 -->
 	<Hotel Rating="7.6">
 		<Name>The STRAT Hotel and Casino</Name>
-		<Phone>702-914-2000</Phone>
+		<Phone>914-2000</Phone>
 		<Address NearestAirport="Harry Reid International Airport">
 			<Number>2000</Number>
 			<Street>Las Vegas Blvd S</Street>
