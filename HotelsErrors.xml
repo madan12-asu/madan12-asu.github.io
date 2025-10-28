@@ -13,7 +13,6 @@
 	<Hotel Rating="7.5">
 		<Name>Pacific Palms Resort</Name>
 		<Phone>626-810-4455</Phone>
-		<Phone>626-810-4555</Phone>
 		<Address NearestAirport="Ontario International Airport">
 			<Number>1</Number>
 			<Street>Industry Hills Pkwy</Street>
