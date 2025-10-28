@@ -8,10 +8,7 @@
 		last updated: 10/17/25 
 	-->
 	
-	<xsd:element name="Hotels">
-			<xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
-	<xsd:element>
-	
+	<xsd:element name="Hotels" name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
 	<!-- Hotel Details -->
 	<xsd:complexType name="HotelType">
 		<xsd:sequence>
