@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xmlns="https://madan12-asu.github.io"
-	targetNamespace="https://madan12-asu.github.io"
+	targetNamespace="https://madan12-asu.github.io/Hotels.xsd"
 	elementFormDefault="qualified" attributeFormDefault="unqualified">
 	
 	<!-- 
