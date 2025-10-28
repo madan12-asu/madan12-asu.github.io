@@ -9,11 +9,9 @@
 	-->
 	
 	<xsd:element name="Hotels">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
-			<xsd:sequence>
-		<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="Hotel" type="HotelType" minOccurs="1" maxOccurs="unbounded"/>
+		<xsd:sequence>
 	<xsd:element>
 	
 	<!-- Hotel Details -->
