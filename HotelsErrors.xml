@@ -130,11 +130,13 @@
 	<Hotel Rating="9.6">
 		<Name>Four Seasons Resort Maui at Wailea</Name>
 		<Phone>808-874-8000</Phone>
+		<Address>
 			<Number>3900</Number>
 			<Street>Wailea Alanui Drive</Street>
 			<City>Kihei</City>
 			<State>HI</State>
 			<Zip>96753</Zip>
+			
 	</Hotel>   
 	
 </Hotels>  
